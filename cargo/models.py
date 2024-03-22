@@ -25,7 +25,7 @@ class Car(models.Model):
 class Location(models.Model):
     city = models.CharField(max_length=100)
     state = models.CharField(max_length=100)
-    zip_code = models.IntegerField(max_length=20)
+    zip_code = models.IntegerField()
     longitude = models.DecimalField(max_digits=9, decimal_places=6)
     latitude = models.DecimalField(max_digits=9, decimal_places=6)
 
