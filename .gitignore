@@ -1,3 +1,6 @@
 venv/
 app/__pycache__/
 cargo/__pycache__/
+cargo/migrations/__pycache__/
+cargo/management/commands/__pycache__/
+
