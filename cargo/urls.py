@@ -9,7 +9,7 @@ urlpatterns = [
     path('cargo/create/',views.CargoCreateView.as_view()),
 
     # this one is to list(read) created cargo with needed fields
-    path('cargo',views.CargoList.as_view()),
+    path('cargo/',views.CargoList.as_view()),
 
     # getting cargo by id and editing
     path('cargo/<int:pk>/',views.CargoEdit.as_view()),
