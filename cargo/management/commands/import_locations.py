@@ -10,7 +10,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         
-        file_path = r'C:\Users\hp\Desktop\cargo\app\uszips.csv'
+        file_path = '/app/uszips.csv'
         
         with open(file_path, 'r') as file:
             reader = csv.DictReader(file)
