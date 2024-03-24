@@ -15,6 +15,7 @@ class CargoCreateView(generics.CreateAPIView):
 class CargoList(generics.ListAPIView):
     queryset = Cargo.objects.all().order_by('-id')
     serializer_class = CargoSerializer
+    filterset_fields = ['weight',]   
 
 
 
