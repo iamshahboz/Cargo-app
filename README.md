@@ -34,4 +34,11 @@ localhost:8000/swagger
 
 
 
+### Note 
+
+All the levels (1, 2) of the technical task done
+
+
+
+
 
